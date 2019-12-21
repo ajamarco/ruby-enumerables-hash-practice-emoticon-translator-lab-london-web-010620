@@ -7,6 +7,7 @@ def load_library (file_path)
   emoticons.each_value do |value|
     hash_to_return[:get_meaning]["japanese_emoticon"] = value[1]
   end
+  puts hash_to_return
   hash_to_return
 end
 
