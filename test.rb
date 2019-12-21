@@ -1,5 +1,5 @@
 require "yaml"
 
-path = "lib/emoticons.ymx"
+path = "lib/emoticons.yml"
 emoticons = YAML.load_file(path)
 puts emoticons
