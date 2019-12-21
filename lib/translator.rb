@@ -4,6 +4,9 @@ require "yaml"
 def load_library (file_path)
   emoticons = YAML.load_file(file_path)
   hash_to_return = {:get_meaning => {}, :get_emoticon => {}}
+  emoticons.each_value do |value|
+    hash_to_return[:get_meaning]["japanese_emoticon"] = value[1]
+  end
   hash_to_return
 end
 
