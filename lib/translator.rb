@@ -8,7 +8,6 @@ def load_library (file_path)
     hash_to_return[:get_meaning][value[1]] = key
     hash_to_return[:get_emoticon][value[0]] = value[1]
   end
-  puts hash_to_return
   hash_to_return
 end
 
