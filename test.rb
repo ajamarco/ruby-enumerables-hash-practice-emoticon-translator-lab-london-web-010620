@@ -14,4 +14,3 @@ path = "lib/emoticons.yml"
 emoticons = load_library(path)
 puts emoticons
   
-end
